@@ -5,22 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
   <link href="style.css" rel="stylesheet">
 
 </head>
 <body>
 
-  <div id="container">
-    <main>
+  <div id="top-pattern">
 
+  </div>
+
+
+
+  <div id="container">
+
+    <div id="theme">
+      <img src="images/moon.png" id='icon' alt="dark mode" >
+    </div>
+
+    <main>
+      <div id="pattern-card"></div>
+      <div id="image">
+        <img src="images/image-victor.jpg" class='profile-img' alt="profile image" >
+      </div>
+      <div id="details">
+        <h1>Victor Crest <span class="grey-text">26</span></h1>
+        <p class="grey-text">London</p>
+      </div>
+      <div id="social-info">
+        <div class="social">
+          <h2>80K</h2>
+          <p class="grey-text small">Followers</p>
+        </div>
+        <div class="social">
+          <h2>803K</h2>
+          <p class="grey-text small">Likes</p>
+        </div>
+        <div class="social">
+          <h2>1.4K</h2>
+          <p class="grey-text small">Photos</p>
+        </div>
+      </div>
     </main>
+
+
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="http://ss-frontend-mentor-solutions.vercel.app/" target="_blank">Shaswat Singh</a>.
     </div>
+
   </div>
+
+  <div id="bottom-pattern">
+
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
